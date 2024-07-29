@@ -1,5 +1,5 @@
 # TerraformNginx
-![](images/drawio.png)
+![](images/diagram.png)
 ## Overview
 
 This project demonstrates the deployment of a containerized NGINX Docker image on an Amazon EC2 instance using Terraform. The setup is fully automated with Terraform and includes building and running an NGINX Docker container on an EC2 instance.
@@ -9,7 +9,7 @@ This project demonstrates the deployment of a containerized NGINX Docker image o
 - `Dockerfile`: The Dockerfile used to build the custom NGINX Docker image.
 - `main.tf`: The Terraform configuration file for provisioning the AWS infrastructure.
 - `index.html`: A sample HTML file served by the NGINX container.
-- `README.md`: This file.
+
 
 ## Prerequisites
 
@@ -22,7 +22,7 @@ This project demonstrates the deployment of a containerized NGINX Docker image o
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/TerraformNginx.git
+   git clone https://github.com/Talh12/TerraformNginx.git
    cd TerraformNginx
 
 2. **Configure Terraform**
